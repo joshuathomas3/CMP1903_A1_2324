@@ -8,9 +8,10 @@ namespace CMP1903_A1_2324
 {
     internal class Die
     {
-        //Property
+        // Instantiates private variable
         private int _value;
-
+        
+        // Getter and Setter used to pass private value to method.
         public int Value
         {
             get
@@ -23,7 +24,7 @@ namespace CMP1903_A1_2324
             }
         }
         
-        //Method
+        // Generates and returns an integer between 1 and 6 inclusive 
         public int Roll()
         {
             Random random = new Random();
